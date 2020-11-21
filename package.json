@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --no-source-map sass/main.scss:dist/main.css"
+    "compile": "sass --no-source-map sass/main.scss:main.css"
   },
   "repository": {
     "type": "git",
