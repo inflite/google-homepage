@@ -20,6 +20,13 @@ footer {
             text-decoration: underline;
         }
     }
+
+    @include respond-to('medium') {
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "right" 
+        "left";
+    }
 }
 
 .left {
@@ -30,6 +37,12 @@ footer {
 
     a {
         margin-right: 15px;
+    }
+
+    @include respond-to('small') {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -42,5 +55,11 @@ footer {
 
     a {
         margin-left: 15px;
+    }
+
+    @include respond-to('small') {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
