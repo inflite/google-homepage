@@ -59,7 +59,7 @@
   line-height: 24px;
 }
 
-#center-input:hover {
+#center-input:hover, #center-input:focus-within {
   background-color: #fff;
   box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
   border-color: rgba(223,225,229,0);
