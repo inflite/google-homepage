@@ -1,0 +1,21 @@
+#footer {
+  background-color: #f2f2f2;
+  color: #70757a;
+  padding: 0 20px;
+}
+
+.footer-link {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 15px;
+}
+
+a.footer-link {
+  color: unset;
+  text-decoration: none;
+}
+
+a.footer-link:hover, a.footer-link:focus {
+  text-decoration: underline;
+}
+
