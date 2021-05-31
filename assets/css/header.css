@@ -20,9 +20,7 @@ a.header-link:hover, a.header-link:focus {
 #header-buttons-menu {
   color: #5f6368;
   font-size: 24px;
-  line-height: 0;
-  margin: auto 0;
-  padding: 12px;
+  padding: 6px;
 }
 
 #header-buttons-signin {
@@ -41,6 +39,12 @@ a#header-buttons-signin:hover, a#header-buttons-signin:focus {
   background: #2b7de9;
   box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
   text-decoration: none;
+}
+
+a#header-buttons-menu:hover, a#header-buttons-menu:focus {
+  background-color: rgba(60,64,67,0.08);
+  border-radius: 50%;
+  outline: none;
 }
 
 #header-links {
